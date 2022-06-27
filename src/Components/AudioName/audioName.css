@@ -1,0 +1,15 @@
+.audioContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.audioButton {
+	color: var(--black--color);
+	cursor: pointer;
+	width: 20px;
+	height: max-content;
+}
+
+.audioButton:hover {
+	color: var(--blue--color);
+}
