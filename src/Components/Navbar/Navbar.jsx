@@ -27,13 +27,13 @@ export const Navbar = () => {
 			<div className='logo'>LOGO</div>
 			<ul>
 				<li>
-					<a href='#asd'>Nosotros</a>
+					<a href='#us'>Nosotros</a>
 				</li>
 				<li>
-					<a href='#asd'>Servicios</a>
+					<a href='#services'>Servicios</a>
 				</li>
 				<li>
-					<a href='#asd'>Contacto</a>
+					<a href='#contact'>Contacto</a>
 				</li>
 			</ul>
 		</nav>
