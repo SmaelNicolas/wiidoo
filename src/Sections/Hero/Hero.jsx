@@ -1,5 +1,6 @@
 import React from "react";
 import { AudioName } from "../../Components/AudioName/AudioName";
+import { Blob } from "../../Components/Blob/Blob";
 import "./hero.css";
 
 export const Hero = () => {
@@ -12,6 +13,12 @@ export const Hero = () => {
 				</div>
 				<div className='hero--subname'>SITIOS WEBS</div>
 				<div className='hero--subname'>A MEDIDA</div>
+			</div>
+			<div className='hero--blob'>
+				<Blob />
+				<a className='hero--blob--text' href='#contact'>
+					<div>¡Hablemos!</div>
+				</a>
 			</div>
 		</div>
 	);
