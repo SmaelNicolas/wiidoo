@@ -1,0 +1,32 @@
+.hero {
+	width: 100%;
+	padding-top: 100px;
+	height: 500px;
+}
+
+.hero--content {
+	display: flex;
+	flex-direction: column;
+	width: max-content;
+	padding-left: 4vw;
+}
+
+.hero--name {
+	color: var(--blue--color);
+	font-family: "regular";
+	font-weight: 600;
+	font-size: calc(36px + 4vw);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	letter-spacing: 0.05em;
+}
+
+.hero--subname {
+	color: var(--black--color);
+	font-family: "regular";
+	font-weight: 400;
+	font-size: calc(32px + 3.5vw);
+	letter-spacing: -0.03em;
+}
