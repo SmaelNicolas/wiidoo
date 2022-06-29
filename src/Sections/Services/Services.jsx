@@ -7,9 +7,9 @@ import { BsSearch } from "react-icons/bs";
 import { MdDevices } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { MdScreenSearchDesktop } from "react-icons/md";
-import { GrDomain } from "react-icons/gr";
-import { GrHost } from "react-icons/gr";
-import { GrLock } from "react-icons/gr";
+import { MdDomainVerification } from "react-icons/md";
+import { BsServer } from "react-icons/bs";
+import { BsLock } from "react-icons/bs";
 import { ImStatsDots } from "react-icons/im";
 
 export const Services = () => {
@@ -31,14 +31,12 @@ export const Services = () => {
 				<CardServices
 					img={<FaLaptopCode />}
 					title='Desarrollo'
-					body='Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-					et ipsam, deleniti ipsa natus quaerat.'
+					body='Creamos tu sitio web desde 0 , sin plantillas. Totalmente personalizado a tus necesidades.'
 				/>
 				<CardServices
 					img={<BsSearch />}
 					title='Seo'
-					body='Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-					et ipsam, deleniti ipsa natus quaerat.'
+					body='Optimizar el contenido del sitio y obtener más visibilidad y clasificar más alto en los motores de búsqueda. '
 				/>
 				<CardServices
 					img={<FaUniversalAccess />}
@@ -53,19 +51,19 @@ export const Services = () => {
 					et ipsam, deleniti ipsa natus quaerat.'
 				/>
 				<CardServices
-					img={<GrDomain />}
+					img={<MdDomainVerification />}
 					title='dominio'
 					body='Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
 					et ipsam, deleniti ipsa natus quaerat.'
 				/>
 				<CardServices
-					img={<GrHost />}
+					img={<BsServer />}
 					title='host'
 					body='Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
 					et ipsam, deleniti ipsa natus quaerat.'
 				/>
 				<CardServices
-					img={<GrLock />}
+					img={<BsLock />}
 					title='Seguridad'
 					body='Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
 					et ipsam, deleniti ipsa natus quaerat.'
@@ -73,8 +71,7 @@ export const Services = () => {
 				<CardServices
 					img={<MdEmail />}
 					title='Email Marketing'
-					body='Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-					et ipsam, deleniti ipsa natus quaerat.'
+					body='Envia correos electrónicos efectivos y hace crecer tu audiencia leal.'
 				/>
 				<CardServices
 					img={<ImStatsDots />}
