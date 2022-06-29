@@ -38,7 +38,7 @@ export const Form = () => {
 					id='name'
 					name='from_name'
 					required
-					minlength='3'
+					minLength='3'
 				/>
 				<Divider />
 				<label className='form--label' htmlFor='email'>
@@ -50,7 +50,7 @@ export const Form = () => {
 					id='email'
 					name='user_email'
 					required
-					minlength='10'
+					minLength='10'
 				/>
 				<Divider />
 				<label className='form--label' htmlFor='msg'>
@@ -61,7 +61,7 @@ export const Form = () => {
 					name='message'
 					id='msg'
 					required
-					minlength='10'
+					minLength='10'
 				/>
 				<Divider />
 				<Divider />
