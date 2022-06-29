@@ -1,6 +1,6 @@
 .appContainer {
 	width: calc(100vw - (100vw - 100%));
-	min-height: 400vh;
+	min-height: 100vh;
 	background-color: var(--gold--color);
 	color: var(--black--color);
 	font-size: 80px;
