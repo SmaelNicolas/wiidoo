@@ -14,7 +14,7 @@ function App() {
 			<WhatsApp />
 			<Navbar />
 			<Hero />
-			<ArrowScroll />
+			{/* <ArrowScroll /> */}
 			<Divider />
 			<Divider />
 			<Divider />
