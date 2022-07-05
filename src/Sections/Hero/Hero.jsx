@@ -1,4 +1,5 @@
 import React from "react";
+import { ArrowScroll } from "../../Components/ArrowScroll/ArrowScroll";
 import { AudioName } from "../../Components/AudioName/AudioName";
 import { Blob } from "../../Components/Blob/Blob";
 import { VideoBg } from "../../Components/VideoBg/VideoBg";
@@ -22,6 +23,7 @@ export const Hero = () => {
 					<div>¡Hablemos!</div>
 				</a>
 			</div>
+			<ArrowScroll />
 		</div>
 	);
 };
