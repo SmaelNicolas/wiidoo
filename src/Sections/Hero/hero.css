@@ -33,7 +33,7 @@
 .hero--subname {
 	color: var(--black--color);
 	font-family: "regular";
-	font-weight: 400;
+	font-weight: 600;
 	font-size: calc(32px + 3.5vw);
 	letter-spacing: -0.03em;
 }
@@ -51,7 +51,7 @@
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	font-size: 40px;
+	font-size: calc(20px + 0.5vw);
 	cursor: pointer;
 	width: 70%;
 	height: 100%;
@@ -70,4 +70,11 @@
 .hero--blob--text:hover {
 	color: var(--black--color);
 	transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 815px) {
+	.hero--blob {
+		width: 250px;
+		height: 250px;
+	}
 }
