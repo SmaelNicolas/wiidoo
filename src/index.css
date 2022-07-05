@@ -31,4 +31,9 @@
 	width: 100%;
 	text-align: center;
 	padding: 15px 0px;
+	font-size: calc(55px + 2vw);
+}
+
+.title--s {
+	font-size: calc(35px + 2vw);
 }
