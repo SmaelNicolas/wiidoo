@@ -12,9 +12,11 @@
 }
 
 :root {
-	--gold--color: hsl(54, 96%, 52%);
-	--blue--color: hsl(221, 100%, 56%);
-	--white--color: hsl(0, 26%, 95%);
+	/* --gold--color: hsl(54, 96%, 52%); */
+	--gold--color: #ffffff;
+	--blue--color: #1f66ff;
+	/* --white--color: hsl(0, 26%, 95%); */
+	--green--color: #31e704;
 	--black--color: hsl(0, 0%, 0%);
 }
 
@@ -23,4 +25,10 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0px;
 }

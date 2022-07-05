@@ -12,8 +12,10 @@
 	height: max-content;
 	margin: 10px;
 	cursor: pointer;
+	transition: all 0.65s ease;
 }
 
 .iconMedia--icon :hover {
-	color: grey;
+	color: var(--black--color);
+	transition: all 0.65s ease;
 }
