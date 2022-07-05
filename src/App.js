@@ -1,6 +1,5 @@
 import "./app.css";
 import { ArrowScroll } from "./Components/ArrowScroll/ArrowScroll";
-import { ArrowUp } from "./Components/ArrowUp/ArrowUp";
 import { Divider } from "./Components/Divider/Divider";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { WhatsApp } from "./Components/WhatsApp/WhatsApp";
@@ -13,7 +12,6 @@ function App() {
 	return (
 		<div className='appContainer'>
 			<WhatsApp />
-			<ArrowUp />
 			<Navbar />
 			<Hero />
 			<ArrowScroll />
