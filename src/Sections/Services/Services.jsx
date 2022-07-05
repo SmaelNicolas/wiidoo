@@ -41,7 +41,7 @@ export const Services = () => {
 				<CardServices
 					img={<BsServer />}
 					title='host'
-					body='Hosting que se ajusta al trafico del sitio. Sin publicidades invasivas y comlpetamente seguro.'
+					body='Hosting que se ajusta al trafico del sitio. Sin publicidades invasivas y completamente seguro.'
 				/>
 				<CardServices
 					img={<BsLock />}
