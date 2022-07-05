@@ -1,13 +1,6 @@
 .contact {
 	width: 100%;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-}
-
-.contact--title {
-	width: 100%;
-	font-size: calc(36px + 4vw);
-	text-align: center;
-	text-transform: uppercase;
-	font-family: "bold";
 }
