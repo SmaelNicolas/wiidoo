@@ -1,0 +1,49 @@
+.aboutUs {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 15px 0px;
+	position: relative;
+}
+
+.aboutUs--content {
+	max-width: 900px;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 25px;
+	z-index: 5;
+}
+
+.aboutUs--content--name {
+	color: var(--blue--color);
+	font-family: "regular";
+	font-weight: 600;
+	letter-spacing: 0.05em;
+}
+
+.aboutUs--content--idea {
+	margin: 0px 5px;
+}
+
+.aboutUs--content--link {
+	text-decoration: none;
+	color: var(--blue--color);
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	padding: 0px 10px;
+	font-family: "regular";
+}
+
+.aboutUs--content--hand {
+	width: 20px;
+	border-radius: 50%;
+}
+
+.aboutUs--image {
+	width: 500px;
+	z-index: 1;
+}
