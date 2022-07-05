@@ -1,21 +1,47 @@
 .iconMedia {
-	width: 100%;
+	max-width: 100%;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: var(--blue--color);
+	color: var(--black--color);
 	padding: 20px;
 }
 
-.iconMedia--icon {
-	width: max-content;
-	height: max-content;
-	margin: 10px;
+.iconMedia--line {
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 	cursor: pointer;
 	transition: all 0.65s ease;
+	font-size: 30px;
+	margin: 20px 0px;
+	position: relative;
 }
 
-.iconMedia--icon :hover {
-	color: var(--black--color);
-	transition: all 0.65s ease;
+.iconMedia--line--icon {
+	width: 50px;
+	margin-right: 35px;
+}
+
+.iconMedia--line--hand {
+	font-size: 20px;
+	margin: 0px 10px;
+	position: absolute;
+	left: 40px;
+	animation: move 2s linear infinite;
+}
+
+@keyframes move {
+	0% {
+		left: 40px;
+	}
+	50% {
+		left: 50px;
+	}
+	100% {
+		left: 40px;
+	}
 }
