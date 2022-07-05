@@ -1,11 +1,13 @@
 import React from "react";
 import { AudioName } from "../../Components/AudioName/AudioName";
 import { Blob } from "../../Components/Blob/Blob";
+import { VideoBg } from "../../Components/VideoBg/VideoBg";
 import "./hero.css";
 
 export const Hero = () => {
 	return (
 		<div className='hero'>
+			<VideoBg />
 			<div className='hero--content'>
 				<div className='hero--name'>
 					<div>WiiDoo</div>
