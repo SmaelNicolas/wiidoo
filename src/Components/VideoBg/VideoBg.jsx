@@ -1,7 +1,6 @@
 import React from "react";
 import "./videoBg.css";
 
-import Vid from "../../Assets/Videos/vid.mp4";
 import Vid2 from "../../Assets/Videos/vid2.mp4";
 
 export const VideoBg = () => {
