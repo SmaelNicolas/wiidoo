@@ -2,6 +2,7 @@ import "./app.css";
 import { ArrowScroll } from "./Components/ArrowScroll/ArrowScroll";
 import { Divider } from "./Components/Divider/Divider";
 import { Navbar } from "./Components/Navbar/Navbar";
+import { NavbarResponsive } from "./Components/NavbarResponsive/NavbarResponsive";
 import { WhatsApp } from "./Components/WhatsApp/WhatsApp";
 import { AboutUs } from "./Sections/AboutUs/AboutUs";
 import { Contact } from "./Sections/Contact/Contact";
@@ -14,15 +15,8 @@ function App() {
 		<div className='appContainer'>
 			<WhatsApp />
 			<Navbar />
+			<NavbarResponsive />
 			<Hero />
-			<Divider />
-			<Divider />
-			<Divider />
-			<Divider />
-			<Divider />
-			<Divider />
-			<Divider />
-			<Divider />
 			<Divider />
 			<AboutUs />
 			<Divider />
@@ -31,6 +25,9 @@ function App() {
 			<WorkWith />
 			<Divider />
 			<Contact />
+			<Divider />
+			<Divider />
+			<Divider />
 		</div>
 	);
 }
