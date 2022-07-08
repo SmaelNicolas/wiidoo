@@ -9,6 +9,7 @@ import LogoTrek from "../../Assets/Logos/trekS.svg";
 import LogoEcm from "../../Assets/Logos/ecm.png";
 import LogoPde from "../../Assets/Logos/pde.png";
 import LogoDgo from "../../Assets/Logos/dgo.png";
+import LogoDen from "../../Assets/Logos/ImgD.png";
 
 export const WorkWith = () => {
 	return (
@@ -27,12 +28,10 @@ export const WorkWith = () => {
 					alt='imgLogo'
 				/>
 				<img className='worksImage' src={LogoShr} alt='imgLogo' />
-
 				<img className='worksImage ' src={LogoDaniel} alt='imgLogo' />
-
 				<img className='worksImage' src={LogoEcm} alt='imgLogo' />
+				<img className='worksImage ' src={LogoDen} alt='imgLogo' />
 				<img className='worksImage' src={LogoPde} alt='imgLogo' />
-
 				<img
 					className='worksImage bdrRad'
 					src={LogoDgo}
