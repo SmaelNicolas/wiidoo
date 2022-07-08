@@ -17,7 +17,7 @@
 	--blue--color: #1f66ff;
 	/* --white--color: hsl(0, 26%, 95%); */
 	--green--color: #31e704;
-	--black--color: hsl(0, 0%, 0%);
+	--black--color: #000000;
 }
 
 * {
@@ -31,9 +31,10 @@
 	width: 100%;
 	text-align: center;
 	padding: 15px 0px;
-	font-size: calc(55px + 2vw);
+	font-size: calc(45px + 2vw);
+	text-transform: uppercase;
 }
 
 .title--s {
-	font-size: calc(35px + 2vw);
+	font-size: calc(30px + 2vw);
 }
