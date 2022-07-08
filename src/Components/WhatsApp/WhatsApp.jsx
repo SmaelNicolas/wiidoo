@@ -10,7 +10,9 @@ export const WhatsApp = () => {
 			src={imgWhatsapp}
 			alt='wtsp redirect'
 			onClick={() =>
-				openInNewTab("https://api.whatsapp.com/send/?phone=2914405917")
+				openInNewTab(
+					"https://api.whatsapp.com/send/?phone=542914405917"
+				)
 			}
 			className='whatsAppButton'
 		/>
