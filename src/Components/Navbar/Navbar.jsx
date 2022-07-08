@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import LogoW from "../../Assets/WiiDoo/l.png";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -24,7 +25,12 @@ export const Navbar = () => {
 
 	return (
 		<nav className={padding ? "nav active" : "nav"}>
-			<div className='logo'>LOGO</div>
+			<img
+				className='logo'
+				src={LogoW}
+				alt='servicios web'
+				onClick={() => window.scrollTo(0, 0)}
+			/>
 			<ul>
 				<li>
 					<a href='#us'>Nosotros</a>
