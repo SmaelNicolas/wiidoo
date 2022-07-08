@@ -62,7 +62,7 @@
 	text-decoration: none;
 	color: var(--green--color);
 	font-family: "regular";
-	text-transform: uppercase;
+	font-weight: 500;
 	transition: all 0.3s ease-in-out;
 	border-radius: 50%;
 }
@@ -70,6 +70,7 @@
 .hero--blob--text:hover {
 	color: var(--black--color);
 	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
 }
 
 @media (max-width: 815px) {
