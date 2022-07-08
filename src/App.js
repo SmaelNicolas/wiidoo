@@ -7,6 +7,7 @@ import { AboutUs } from "./Sections/AboutUs/AboutUs";
 import { Contact } from "./Sections/Contact/Contact";
 import { Hero } from "./Sections/Hero/Hero";
 import { Services } from "./Sections/Services/Services";
+import { WorkWith } from "./Sections/WorkWith/WorkWith";
 
 function App() {
 	return (
@@ -14,7 +15,6 @@ function App() {
 			<WhatsApp />
 			<Navbar />
 			<Hero />
-			{/* <ArrowScroll /> */}
 			<Divider />
 			<Divider />
 			<Divider />
@@ -27,6 +27,8 @@ function App() {
 			<AboutUs />
 			<Divider />
 			<Services />
+			<Divider />
+			<WorkWith />
 			<Divider />
 			<Contact />
 		</div>
