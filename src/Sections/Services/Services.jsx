@@ -31,7 +31,7 @@ export const Services = () => {
 				<CardServices
 					img={<MdDevices />}
 					title='responsive'
-					body='Desarrollado para adaptarse a todos los dispositivos, como Smartphones y tablets, importante para alcanzar un público mayor.'
+					body='Desarrollado para adaptarse a todos los dispositivos, como Smartphones y tablets, importante para alcanzar un mayor público.'
 				/>
 				<CardServices
 					img={<MdDomainVerification />}
@@ -61,7 +61,7 @@ export const Services = () => {
 				<CardServices
 					img={<MdScreenSearchDesktop />}
 					title='Google search'
-					body='Monitoreá, mantené y soluciona problemas relacionados con la presencia del sitio en los resultados de búsqueda de Google.'
+					body='Monitoreá, mantené y solucioná problemas relacionados con la presencia del sitio en los resultados de búsqueda de Google.'
 				/>
 				<CardServices
 					img={<SiGooglemybusiness />}
