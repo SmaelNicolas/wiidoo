@@ -10,6 +10,14 @@
 	z-index: 998;
 }
 
+.logoResponsive {
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
 .menu {
 	position: relative;
 	width: 40px;
@@ -24,6 +32,7 @@
 
 .iconMenu {
 	width: 30px;
+	height: 20px;
 }
 
 .button {

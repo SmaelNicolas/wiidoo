@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import LogoW from "../../Assets/WiiDoo/l.png";
+import LogoB from "../../Assets/WiiDoo/logob.png";
+import LogoN from "../../Assets/WiiDoo/logon.png";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -25,12 +26,21 @@ export const Navbar = () => {
 
 	return (
 		<nav className={padding ? "nav active" : "nav"}>
-			<img
-				className='logo'
-				src={LogoW}
-				alt='servicios web'
-				onClick={() => window.scrollTo(0, 0)}
-			/>
+			{padding ? (
+				<img
+					className='logo'
+					src={LogoB}
+					alt='servicios web'
+					onClick={() => window.scrollTo(0, 0)}
+				/>
+			) : (
+				<img
+					className='logo'
+					src={LogoN}
+					alt='servicios web'
+					onClick={() => window.scrollTo(0, 0)}
+				/>
+			)}
 			<ul>
 				<li>
 					<a href='#us'>Nosotros</a>

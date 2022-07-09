@@ -3,11 +3,18 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 
 import "./navbarResponsive.css";
+import LogoN from "../../Assets/WiiDoo/logon.png";
 
 export const NavbarResponsive = () => {
 	const [open, setOpen] = useState(false);
 	return (
 		<div className='navbarResponsiveContainer'>
+			<img
+				className='logoResponsive'
+				src={LogoN}
+				alt='servicios web'
+				onClick={() => window.scrollTo(0, 0)}
+			/>
 			<div
 				className={open ? "menu open " : "menu "}
 				onClick={() => setOpen(!open)}
