@@ -17,10 +17,13 @@ export const AboutUs = () => {
 				independientes, servicios inmobiliarios y más!
 			</div>
 			<div className='aboutUs--content'>
-				¿Queres mostrar tus productos? ¿Ofrecer tus servicios? ¿Un Menú
-				para tu local? no dudes en escribirnos por cualquier medio.
-				Estamos para ayudarte a decidir lo mejor para vos y llevar tu
+				¿Queres mostrar tus productos? ¿Ofrecer tus servicios? ¿Un menú
+				para tu local? Estamos para ayudarte a decidir lo mejor para vos
+				y llevar tu
 				<FcIdea className='aboutUs--content--idea' />a la web!
+			</div>
+			<div className='aboutUs--content'>
+				¡Escribinos! Armamos un presupuesto acorde a tus necesidades
 			</div>
 			<div className='aboutUs--content'>
 				<a className='aboutUs--content--link' href='#contact'>

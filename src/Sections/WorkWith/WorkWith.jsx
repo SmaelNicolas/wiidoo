@@ -31,12 +31,12 @@ export const WorkWith = () => {
 				<img className='worksImage ' src={LogoDaniel} alt='imgLogo' />
 				<img className='worksImage' src={LogoEcm} alt='imgLogo' />
 				<img className='worksImage ' src={LogoDen} alt='imgLogo' />
-				<img className='worksImage' src={LogoPde} alt='imgLogo' />
 				<img
 					className='worksImage bdrRad'
 					src={LogoDgo}
 					alt='imgLogo'
 				/>
+				<img className='worksImage' src={LogoPde} alt='imgLogo' />
 			</div>
 		</div>
 	);
