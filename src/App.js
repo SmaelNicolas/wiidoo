@@ -8,11 +8,11 @@ import { AboutUs } from "./Sections/AboutUs/AboutUs";
 import { Contact } from "./Sections/Contact/Contact";
 import { Hero } from "./Sections/Hero/Hero";
 import { Services } from "./Sections/Services/Services";
-import { WorkWith } from "./Sections/WorkWith/WorkWith";
+// import { WorkWith } from "./Sections/WorkWith/WorkWith";
 
 function App() {
 	return (
-		<div className='appContainer'>
+		<div className="appContainer">
 			<WhatsApp />
 			<Navbar />
 			<NavbarResponsive />
@@ -22,8 +22,8 @@ function App() {
 			<Divider />
 			<Services />
 			<Divider />
-			<WorkWith />
-			<Divider />
+			{/* <WorkWith />
+			<Divider /> */}
 			<Contact />
 			<Divider />
 			<Divider />
